@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .chat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .controls {} */
+
+    li {
+        height: 30px;
+        background-color: rgb(191, 214, 191);
+        list-style: none;
+    }
+
+    .user {
+        height: 30px;
+        background-color: rgb(79, 189, 79);
+        list-style: none;
+    }
+</style>
+
+
+<body>
+
+    <div class="center">
+        <div class="chat">
+            <ul class="messageList">
+            </ul>
+
+            <div class="controls">
+                <input id="message" type="text">
+                <button id="send">Submit</button>
+            </div>
+
+
+
+
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quos, numquam, harum assumenda quibusdam
+                error eum
+                aliquam dolor omnis velit quo molestias modi. Deserunt accusantium doloribus eius eum vero temporibus.
+            </p> -->
+            <!-- <p id="slowLoris">
+                hello
+                <a href="javascript:void(0)" onClick="expandLoris()"><em>Click for more.</em></a>
+                <strong>Developer</strong>
+            </p> -->
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
